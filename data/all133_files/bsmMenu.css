@@ -1,0 +1,342 @@
+.bsm-SrvMenuUI
+{
+	display:none;
+}
+
+.bsm-MenuUIPopupBody
+{
+    background-color:#fafafa;
+	border:1px solid Gray;
+	margin:0px;
+	padding:0px;
+}
+
+.bsm-TooltipUIPopupBody
+{
+    background-color:#fafafa;
+	border:1px solid Gray;
+	margin:0px;
+	padding:0px;
+	cursor:default;
+}
+.bsm-MenuUIPopupBody TABLE
+{
+	color:#003399;
+	font-size:100%;
+	margin:0px;
+	padding:0px;
+}
+
+.bsm-TooltipUIPopupBody TABLE
+{
+	color:Black;
+	font-size:100%;
+	margin:0px;
+	padding:0px;
+	filter: progid:DXImageTransform.Microsoft.Shadow(color=#fafafa,direction=130,strength=1);
+}
+
+
+
+.bsm-MenuUIPopupBody div
+{
+	cursor:pointer;
+}
+
+.bsm-MenuUI,.bsm-MenuUILarge,.bsm-MenuUIRtL,.bsm-MenuUILargeRtL,.bsm-ToolTipUI
+{
+	background-repeat:repeat-y;
+	cursor:pointer;
+}
+
+.bsm-MenuUI,.bsm-MenuUILarge,.bsm-ToolTipUI
+{
+	background-position:left;
+}
+
+.bsm-MenuUIRtL,.bsm-MenuUILargeRtL
+{
+	background-position:right;
+}
+
+.bsm-MenuUILarge
+{
+	background-image:url("MGradLarge.gif");
+	width:250px;
+}
+
+.bsm-MenuUIRtL
+{
+	background-image:url("MGradRtl.gif");
+}
+
+.bsm-MenuUILargeRtL
+{
+	background-image:url("MGradLargeRtl.gif");
+	width:250px;
+}
+
+.bsm-MenuUIItemTableCell,.bsm-MenuUIItemTableCellCompact
+{
+	padding:2px;
+	color:#003399;
+	text-decoration:none;
+	font-size:8pt;
+	font-family:tahoma;
+}
+
+.bsm-TooltipUIItemTableCell
+{
+	padding-left:6px;
+	padding-top : 4px;
+	padding-right:2px;
+	color:#003399;
+	font-size:8pt;
+	font-family:tahoma;
+	width:100%;
+	cursor:default;
+}
+
+.bsm-TooltipLabel
+{
+	cursor:default;
+}
+
+.bsm-MenuUIItemTableCellCompact
+{
+	padding:1px 2px 1px 2px;
+}
+
+.bsm-MenuUIItemTableCell A,.bsm-MenuUIItemTableCellHover A,.bsm-MenuUIItemTableCellCompact A,.bsm-MenuUIItemTableCellCompactHover A
+{
+	color:#003399;
+	text-decoration:none;
+}
+
+.bsm-menuitemdescription
+{
+	color:#666666;
+}
+
+.bsm-MenuUIItemTableCellHover,.bsm-MenuUIItemTableCellCompactHover
+{
+	padding:1px;
+	color:#003399;
+	text-decoration:none;
+	font-size:8pt;
+	font-family:tahoma;
+}
+
+.bsm-TooltipUIItemTableCellHover
+{
+	padding-left:6px;
+	padding-top : 4px;
+	padding-right:2px;
+	color:#003399;
+	text-decoration:none;
+	font-size:8pt;
+	font-family:tahoma;
+	cursor:default;
+}
+
+.bsm-MenuUIItemTableCellCompactHover
+{
+	padding:0px 1px 0px 1px;
+}
+
+.bsm-MenuUIItemTableHover
+{
+	background-color:#ffe6a0;
+	border:1px solid #d2b47a;
+}
+
+.bsm-TooltipUIItemTableHover
+{
+	cursor:default;
+}
+
+.bsm-MenuUIItemTableHover .bsm-menuitemdescription
+{
+	color:#333333;
+}
+
+.bsm-MenuUIIcon,.bsm-MenuUIIconRtL
+{
+	height:16px;
+	width:24px;
+}
+
+.bsm-MenuUIIconSelected,.bsm-MenuUIIconSelectedRtL
+{
+	padding:1px 2px 1px 0px;
+	background-color:#ffe6a0;
+	border:1px solid #d2b47a;
+}
+
+.bsm-MenuUIIconLarge,.bsm-MenuUIIconLargeRtl
+{
+	height:16px;
+	width:40px;
+}
+
+.bsm-MenuUIIcon,.bsm-MenuUIIconLarge
+{
+	padding:0px 6px 0px 2px;
+}
+
+.bsm-MenuUIIconRtL,.bsm-MenuUIIconLargeRtl
+{
+	padding:0px 2px 0px 6px;
+}
+
+.bsm-MenuUILabel,.bsm-MenuUILabelRtL,.bsm-MenuUILabelCompact,.bsm-MenuUILabelCompactRtL,.bsm-MenuUILabelSelected,.bsm-MenuUILabelSelectedRtL
+{
+	width:100%;
+}
+.bsm-MenuUILabelSelected,.bsm-MenuUILabelSelectedRtL
+{
+	text-indent: 10px;
+}
+.bsm-MenuUILabel
+{
+	padding:2px 0px 3px 6px;
+}
+.bsm-MenuUILabelRtL
+{
+	padding:2px 6px 3px 0px;
+}
+.bsm-MenuUILabelCompact
+{
+	padding:1px 0px 1px 7px;
+}
+.bsm-MenuUILabelCompactRtL
+{
+	padding:1px 7px 1px 0px;
+}
+
+
+.bsm-MenuUILabelIndent,.bsm-MenuUILabelIndentRtL,.bsm-MenuUILabelCompactIndent,.bsm-MenuUILabelCompactIndentRtL,.bsm-MenuUILabelSelectedIndent,.bsm-MenuUILabelSelectedIndentRtL
+{
+	width:100%;
+}
+.bsm-MenuUILabelSelectedIndent,.bsm-MenuUILabelSelectedIndentRtL
+{
+	text-indent: 20px;
+}
+.bsm-MenuUILabelIndent
+{
+	padding:2px 0px 3px 16px;
+}
+
+.bsm-MenuUILabelIndentRtL
+{
+	padding:2px 16px 3px 0px;
+}
+
+.bsm-MenuUILabelCompactIndent
+{
+	padding:1px 0px 1px 17px;
+}
+
+.bsm-MenuUILabelCompactIndentRtl
+{
+	padding:1px 17px 1px 0px;
+}
+
+
+.bsm-MenuUISubmenuArrow
+{
+	height:16px;
+	width:16px;
+}
+
+.bsm-MenuUISeparator,.bsm-MenuUISeparatorRtL,.bsm-MenuUISeparatorLarge,.bsm-MenuUISeparatorLargeRtl
+{
+	background-color:#c5c5c5;
+	font-size:1px;
+	height:1px;
+	line-height:1px;
+}
+
+.bsm-MenuUISeparator
+{
+	margin:0px 0px 0px 32px;
+}
+
+.bsm-MenuUISeparatorRtL
+{
+	margin:0px 32px 0px 0px;
+}
+
+.bsm-MenuUISeparatorLarge
+{
+	margin:0px 0px 0px 48px;
+}
+
+.bsm-MenuUISeparatorLargeRtl
+{
+	margin:0px 48px 0px 0px;
+}
+
+.bsm-MenuUICheckMark
+{
+	background-image:url("ChkMrk.gif");
+}
+
+.bsm-MenuUIItemTableCellDisabled
+{
+	color:#999999;
+}
+
+.bsm-mimgcl
+{
+	cursor:hand;
+	width:13px;
+	border:0;
+	
+}
+
+.bsm-TooltipUIItemTable
+{
+	background-color:#fafafa;
+	width:100%;
+	margin:0px;
+	padding:0px;
+}
+
+.bsm-Tooltipcell
+{
+	cursor:default;
+	color:black;
+	font-family:Tahoma;
+	text-decoration:none;
+	border-style:none;
+}
+
+.bsm-MenuUI
+{
+	background-image:url("MGrad.gif");
+}
+.bsm-tooltiphdr
+{
+	float:right;
+	cursor:hand;
+	vertical-align:top;
+}
+.bsm-ttpHdrCell
+{
+	height:9px;
+}
+.bsm-tooltiphdr
+{
+	float:right;
+	cursor:hand;
+	vertical-align:top;
+}
+
+.bsm-ToolTipUI
+{
+	font-weight:bold;
+	background-color:#fafafa;
+	border-collapse:collapse;
+}

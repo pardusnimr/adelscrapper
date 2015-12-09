@@ -1,0 +1,37 @@
+
+# coding: utf-8
+
+# In[4]:
+
+import lxml.html, cssselect
+
+import pymongo
+
+
+# In[3]:
+
+f = open('allrabea2.html')
+
+
+# In[5]:
+
+ff = f.read()
+
+
+# In[7]:
+
+doc = lxml.html.document_fromstring(ff)
+
+
+# In[8]:
+
+for col in doc.xpath("//td[@style='padding-left: 65px']"):
+    print col.text
+    for sib in col.itersiblings():
+        print sib.text
+
+
+# mongodb connection
+
+
+client = pymongo.MongoClient("mongodb://nimr:d7hero@ds041871.mongolab.com:41871/adel")

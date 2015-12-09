@@ -1,0 +1,1 @@
+client = pymongo.MongoClient("mongodb://nimr:d7hero@ds041871.mongolab.coom:41871/adel")

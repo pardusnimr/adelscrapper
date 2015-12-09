@@ -1,0 +1,1013 @@
+
+
+	/***        For Netscape 6 Compatibility Don't Use Underscores in Class names        ***/
+	
+	/* ----------------------------- Global Styles --------------------------------*/
+
+    .gt { 
+	border-collapse: collapse;
+	/*font-family: Tahoma, Arial, Verdana;
+	font-size: 11px;*/
+	text-align: left;
+	cursor: default;
+	}
+	
+	/*This is done to prevent HTML element using <ul> for accessibility from being displaced by default browser margins and padding on the <ul> tags */
+	ul {
+	border:0px;
+	margin:0px;
+	}
+	
+	/* --------------------------- Class Styles for Accessibility ------------------------*/
+	
+	/* 'am' stands for 'accessible mode' */
+	.amLink {
+	text-decoration: none !Important;
+	border: none;
+	color: #000000 !Important;
+	cursor: default;
+	}
+	
+	/* -----------------------------  Class Styles for Pulpit -------------------------------*/
+	
+	.ph {
+	background-color: #ebf3ff;
+	border: solid 1px #d0d8e5;
+	text-align: left;
+	padding-left:4px;	
+	white-space: nowrap;
+	color: #000000 !Important;
+	font-family: Tahoma !Important;
+	font-size: 8pt !Important;
+	}
+
+	.phLink {
+	text-decoration: none;
+	color: #000000 !Important;
+	cursor: default;	
+	}
+	
+	/* -----------------------------  Class Styles for Properties -------------------------------*/
+	
+	/* Properties header label */
+	.prh {
+	background-color: #ebf3ff;
+	border: solid 1px #d0d8e5;
+	text-align: left;
+	padding: 4px 5px 4px 5px;
+	white-space: nowrap;
+	color: #000000 !Important;
+	font-family: Tahoma !Important;
+	font-size: 8pt !Important;
+	}		
+		
+	/* Properties value label */
+	.prv {
+	text-align: left;
+	padding: 4px 5px 4px 5px;
+	border: solid 1px #d0d8e5;
+	white-space: nowrap;
+	color: #000000 !Important;
+	font-family: Tahoma !Important;
+	font-size: 8pt !Important;
+	}
+	
+	/* -----------------------------  Class Styles for Columns -------------------------------*/
+	
+  
+  	/* ----  Columns: not headers  ----*/
+  	/* This style has to be included: the text-align: right style
+	   doesn't take from the .gtd td (global td class) from above. */
+	.oc {
+	text-align: right;
+	padding: 4px 5px 4px 5px;
+	border: solid 1px #d0d8e5;
+	white-space: nowrap;
+	color: #000000 !Important;
+	font-family: Tahoma !Important;
+	font-size: 8pt !Important;
+	}
+	
+	/* ----  Row Header  ----*/
+	.rh {
+	text-align: left;
+	padding: 4px 5px 4px 5px;
+	border: solid 1px #d0d8e5;
+	white-space: nowrap;
+	color: #000000 !Important;
+	font-family: Tahoma !Important;
+	font-size: 8pt !Important;
+	}
+    
+	
+	/* ----  Columns and Rows  ----*/
+	.bl {
+	border-bottom: solid 1px #95b3d7; /* These elements all need to be on the same line */
+	}	
+	
+	/* ----  Grid  ----*/
+	.rl {
+	border-right: solid 1px #95b3d7; /* These elements all need to be on the same line */
+	}
+	
+	/* ----  Column Headers  ----*/
+	.ch {
+	background-color: #ebf3ff;
+	border: solid 1px #d0d8e5;
+	font-weight: normal;
+	text-align: left;
+	padding: 4px 5px 4px 5px;
+	white-space: nowrap;
+	color: #000000 !Important;
+	font-family: Tahoma !Important;
+	font-size: 8pt !Important;
+	}
+	
+	/* ----  Column Header Span Alignment ----*/
+	/* ----  This may be eligible for removal if we 
+			 keep column headers aligned to the left. */
+	.chsa {
+	background-color: #ebf3ff;
+	border: solid 1px #d0d8e5;
+	font-weight: normal;
+	text-align: left;
+	padding: 4px 5px 4px 5px;
+	white-space: nowrap;
+	color: #000000 !Important;
+	font-family: Tahoma !Important;
+	font-size: 8pt !Important;
+	}
+	
+	/* //////////////////////////////////////////////////////////////////////////////////////*/
+	/*///////////////////////////////////////////////////////////////////////////////////////*/
+	
+		
+	/* ----  Drill Through groups - Style elements for alternating color band drill through queries ----*/
+	.dt0 {
+	background-color: #fff;
+	padding: 4px 5px 4px 5px;
+	font-weight: normal;
+	border-bottom: solid 1px #D0D8E5; /* These elements all need to be on the same line */
+	white-space: nowrap;
+	color: #000000 !Important;
+	font-family: Tahoma !Important;
+	font-size: 11px !Important;
+	}
+	
+	.dt1 {
+	background-color: #f8f8f8;
+	padding: 4px 5px 4px 5px;
+	font-weight: normal !Important;
+	border-bottom: solid 1px #D0D8E5; /* These elements all need to be on the same line */
+	white-space: nowrap;
+	color: #000000 !Important;
+	font-family: Tahoma !Important;
+	font-size: 11px !Important;
+	}
+	
+	.dta {   /* Drill to detail Attribute cell */
+	text-align: left;
+	}
+	
+	.dtm {   /* Drill to detail Measure cell */
+	text-align: right;
+	}
+	
+	.dtoc {
+	padding: 4px 5px 4px 5px;
+	border: solid 1px #d0d8e5;
+	white-space: nowrap;
+	color: #000000 !Important;
+	font-family: Tahoma !Important;
+	font-size: 11px !Important;
+	}	
+	
+	
+    .dtgt { 
+	border-collapse: collapse;
+	font-family: Tahoma, Arial, Verdana;
+	font-size: 11px;
+	text-align: left;
+	cursor: default;
+	}	
+	
+		
+	.dtchsa {
+	background-color: #ebf3ff;
+	border: solid 1px #d0d8e5;
+	font-weight: normal !Important;
+	text-align: left !Important;
+	padding: 4px 5px 4px 5px;
+	white-space: nowrap;
+	color: #000000 !Important;
+	font-family: Tahoma !Important;
+	font-size: 11px !Important;
+	}	
+	
+	
+	/* --------------------------- Expand and Collapse ---------------------------- */
+	
+	.excoA
+	{
+        border: none !Important;
+        margin: 0px 0px 0px 0px !Important;
+        padding: 0px 0px 0px 0px !Important;
+	}
+	
+	.excoA:active
+	{
+	    outline: none !Important;
+        border: none !Important;
+        margin: 0px 0px 0px 0px !Important;
+        padding: 0px 0px 0px 0px !Important;
+	}
+
+	.excoImg
+	{
+        border: none !Important;
+        margin: 0px 0px 0px 0px !Important;
+        padding: 0px 0px 0px 0px !Important;
+	}
+
+	/* --------------------------- Sorting and filtering ---------------------------- */
+	
+	/* Sort directional arrow image placement */
+	.sortarrow {
+		margin-left:5px;
+		padding-bottom:2px;
+		cursor:pointer;
+		vertical-align:text-bottom;
+	}
+
+	.sortarrowdis {
+		margin-left:5px;
+		margin-top:-10px; 
+		vertical-align:text-bottom;
+		float:right;
+	}
+	
+	/* ----------------- Dimension Properties select items window ---------------- */
+	
+	.dimPropParentBorder 
+	{	
+		LEFT: 0px; 
+		OVERFLOW: hidden; 
+		width:200px;
+		POSITION: relative;
+	}
+	/*top, right, bottom, left*/
+	.dimPropSelectedMember
+	{
+		background-color: #F0F0F0 !Important;
+		padding: 2px 16px 2px 8px;
+		font-weight: normal !Important;
+		white-space: nowrap;
+		color: #000000 !Important;
+		font-family: Tahoma !Important;
+		font-size: 11px !Important;
+		vertical-align: middle;
+		height:16px;
+		width: 100%;
+	}
+	
+	.dimPropCheckBoxes
+	{
+		background-color: #ffffff !Important;
+		overflow:auto;
+		cursor: pointer !Important;
+		font-family: Tahoma !Important;
+		font-size: 8pt !Important;
+		white-space: nowrap;
+		height: 200px;
+		line-height: 13px; 
+		text-decoration: none;	
+		color: Black !Important;
+		width: 100%;
+	}
+	
+	.dimPropSelectAllText
+	{
+		float: left;
+		padding-left: 4px;
+		padding-top: 7px;
+		cursor: pointer !Important;
+	}
+	
+	.dimPropFloatLeft
+	{
+	    float: left;
+	}	
+	
+	.dimPropSelectAll
+	{
+		float: left;
+		background-repeat: no-repeat;
+		width: 16px;
+		height: 16px;
+		cursor: pointer !Important;
+		margin-top: 5px;
+	}	
+	
+	.dimPropFooter
+	{	
+		font-family: Tahoma !Important;
+		font-size: 8pt !Important;
+		text-align: right;
+		background-color: #F0F0F0 !Important;
+		vertical-align: middle;
+		height:33px;
+		width: 100%;
+	}	
+	
+	.dimPropCancel
+	{
+		padding-left: 3px !Important;
+		padding-right: 9px !Important;
+		color: #00309C !Important;
+		vertical-align: -1px;
+		cursor: pointer !Important;
+	}
+	
+	.dimPropApply
+	{
+		padding-left: 3px !Important;
+		padding-right: 3px !Important;
+		color: #00309C !Important;
+		vertical-align: -1px;
+		cursor: pointer !Important;
+	}	
+	
+	.dimPropCheckBox
+	{	
+		padding-left: 3px;
+	}		
+	
+	.dimPropCheckBoxLabel	
+	{
+		vertical-align: 3px;
+	}	
+		
+	/* ----------------- Change Measure thin field list window ---------------- */
+		
+	.chgMeasTflListItems
+	{
+		margin: 0px 0px 0px 0px;
+		padding: 0px 0px 0px 0px;
+		font-family: Tahoma !Important;
+		font-size: 8pt !Important;
+		color: #000000 !Important;
+		white-space: nowrap;	
+		POSITION: absolute;
+	}
+	
+	.chgMeasTflListItem
+	{
+		margin: 0px 0px 0px 0px;
+		padding: 0px 0px 0px 0px;
+		font-family: Tahoma !Important;
+		font-size: 8pt !Important;
+		color: #000000 !Important;	
+	}
+	
+	.chgMeasTflFolderOpen
+	{
+		list-style-type: none;
+	}	
+	
+	.chgMeasTflMeasure
+	{
+		list-style-type: none;
+	}	
+	
+	.chgMeasTflMainDiv
+	{
+		POSITION: absolute;
+		border: solid 1px #DADADA;
+		OVERFLOW: hidden; 
+		background-color: #ffffff;
+		padding: 25px 4px 2px 4px;
+	}	
+	
+	.chgMeasTflListCheckBox
+	{
+		list-style-type: none; 		
+	}
+	
+	.chgMeasTflFooter
+	{	
+		font-family: Tahoma !Important;
+		font-size: 8pt !Important;
+		text-align: right;
+		background-color: #F0F0F0 !Important;
+		padding: 4px 4px 4px 6px;
+		vertical-align: middle;
+	}	
+	
+	.chgMeasTflCancel
+	{
+		padding-left: 3px !Important;
+		padding-right: 3px !Important;
+		color: #00309C !Important;
+		vertical-align: -1px;
+		cursor: pointer !Important;
+	}
+	
+	.chgMeasTflApply
+	{
+		padding-left: 3px !Important;
+		padding-right: 3px !Important;
+		color: #00309C !Important;
+		vertical-align: -1px;
+		cursor: pointer !Important;
+	}	
+	
+	/* ----------------- Change Measure Styles ---------------- */		
+	
+	.cmLink
+	{	
+		color:#1939AC;
+		text-decoration:none !Important;
+		/*float:right !Important;*/
+		padding-right: 10px !Important;
+		font-size:8pt;
+	}
+	.cmLink:hover
+	{
+		color:#1939AC;
+		text-decoration:none !Important;
+		/*float:right !Important;*/
+		padding-right: 10px !Important;
+		font-size:8pt;
+	}
+	
+	.cmLink:visited
+	{
+		color:#1939AC;
+		text-decoration:none !Important;
+		/*float:right !Important;*/
+		padding-right: 10px !Important;
+		font-size:8pt;
+	}
+	
+	.dragBox
+	{
+		border:solid 1px #ffffff;
+		padding:2px 0px 2px 5px !Important;
+		font-size:8pt;
+		font-family:Tahoma;
+		height:16px;
+		cursor:hand;
+		background-color:#ffffff;
+	}
+	
+	.chgMeasExCoA
+	{
+	    margin-left: 6px; 
+	}
+	
+	.chgMeasExCoA:active
+	{
+	    outline: none;
+	}
+
+	.chgMeasExCoImg
+	{
+        border: none !Important;
+        margin: 0px 0px 3px 0px !Important;
+        padding: 0px 0px 0px 0px !Important;
+	}
+
+	.chgMeasFolderImg
+	{
+	    border: 0px;
+	    margin-left: 8px;
+	    height: 16px;
+	}
+
+
+	/* ----------------- Filter Dialog items window ---------------- */
+
+	.FilterParentBorder
+	{
+		LEFT: 0px; 
+		POSITION: absolute;
+		background-color: #ffffff !Important;
+	}
+	
+	.FilterDialogHeader
+	{
+		background-color: #F0F0F0 !Important;
+		padding-top:5px;
+		padding-bottom:3px;
+		font-weight: normal !Important;
+		white-space: nowrap;
+		color: #000000 !Important;
+		font-family: Tahoma !Important;
+		font-size: 11px !Important;
+		height:18px;
+		width: 100%;
+	}
+	
+	.FilterDialogHeaderLabel
+	{
+		background-color: #F0F0F0 !Important;
+		padding-top:5px;
+		padding-bottom:3px;
+		font-weight: normal !Important;
+		white-space: nowrap;
+		color: #000000 !Important;
+		font-family: Tahoma !Important;
+		font-size: 11px !Important;
+		height:25px;
+		width: 100%;
+	}
+	
+	.FilterDialogContents
+	{
+		background-color: #ffffff !Important;
+		overflow:hidden;
+		font-family: Tahoma !Important;
+		font-size: 8pt !Important;
+		text-decoration: none;
+		color: Black !Important;
+		margin-left:15px;
+		margin-top:20px;
+		text-align: left; 
+	}
+	
+	.FilterDropdown
+	{
+		background-color: #ffffff !Important;
+		overflow:auto;
+		cursor: pointer !Important;
+		font-family: Tahoma !Important;
+		font-size: 8pt !Important;
+		white-space: nowrap;
+		text-decoration: none;	
+		color: Black !Important;
+		margin-left: 5px;
+		margin-right: 0px;
+		margin-top:30px;
+		margin-bottom:0px;
+	}
+	
+	.FilterInput
+	{
+		font-family: Tahoma !Important;
+		font-size: 8pt !Important;
+		margin-right: 5px;
+		margin-top:10px;
+		width: 135px;
+	}	
+
+	.ValueFilterInput
+	{
+		font-family: Tahoma !Important;
+		font-size: 8pt !Important;
+		margin-top:10px;
+		width: 240px;
+	}	
+
+
+	.FilterInputForBetween
+	{
+		font-family: Tahoma !Important;
+		font-size: 8pt !Important;
+		margin-top:10px;
+		width: 93px;
+	}
+	
+	.FilterLabelDiv
+	{
+		background-color: #ffffff !Important;
+		display:block;
+	}
+	
+	.FilterInputDiv
+	{
+		margin-top:0px;
+		background-color: #ffffff !Important;
+		width: 800px;
+	}
+	
+	.NumericValidationWarningDiv
+	{
+		left:0px; 
+		margin-top:0px;
+		background-color: #ffffff !Important;
+		display:block;
+		padding-bottom:0px;
+		padding-top:0px;
+		height:22px;
+		margin-bottom:0px;
+	}
+
+	.FilterWarningLabel
+	{
+		font-family: Tahoma !Important;
+		font-size: 8pt !Important;
+		padding-left: 0px;
+		text-align: right;
+		margin-left: 5px;
+		margin-right: 0px;
+		margin-top:0px;
+		margin-bottom:0px;
+		color: #000000 !Important;
+	}	
+
+	.FilterWarningLabelDiv
+	{
+		font-family: Tahoma !Important;
+		font-size: 8pt !Important;
+		padding-right: 2px;
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-top:0px;
+		margin-bottom:0px;
+		position:absolute;
+		width:auto;
+		height:20px;
+		overflow:visible;
+		color: #00309C !Important;
+		border: 1px solid #000000 !Important;
+		background-color: #fffff0 !Important;
+	}	
+
+	.FilterLabel
+	{
+		font-family: Tahoma !Important;
+		font-size: 8pt !Important;
+		vertical-align: left;
+	}	
+
+	.FilterLabelForBy
+	{
+		font-family: Tahoma !Important;
+		font-size: 8pt !Important;
+		padding-left: 0px;
+		vertical-align: middle;
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-top:-15px;
+		margin-bottom:10px;
+		position:absolute;
+		width:3.5em;
+	}	
+
+	.FilterLabelForBetween
+	{
+		padding-left: 15px;
+		padding-right: 15px;
+		overflow: hidden;
+		font-family: Tahoma !Important;
+		font-size: 8pt !Important;
+		margin-top:10px;
+		vertical-align: center;
+		text-align: center;
+		width:59px;		
+	}	
+
+	.FilterItemHidden
+	{
+		visibility:hidden;
+	}	
+	
+	.FilterDialogHeaderImage 
+	{
+		margin-left:3px;
+		margin-right:5px; 
+		vertical-align:middle;
+		padding-bottom:5px;
+	}
+	
+	.FilterFooter
+	{
+		font-family: Tahoma !Important;
+		font-size: 8pt !Important;
+		text-align: right;
+		background-color: #F0F0F0 !Important;
+		width: 100%;
+		position:absolute;
+		left:0px;
+		top:143px;
+		height:36px;
+		white-space: nowrap;
+		text-decoration: none;	
+	}	
+
+	.FilterCancel
+	{
+		font-family: Tahoma !Important;
+		font-size: 8pt !Important;
+		color: #000000 !Important;
+		vertical-align: 8px;
+		margin-right: 14px;
+		margin-left: 0px;
+		width:100px;
+		text-align: center;
+		height:21px;
+	}
+	
+	.FilterApply
+	{
+		font-family: Tahoma !Important;
+		font-size: 8pt !Important;
+		color: #000000 !Important;
+		vertical-align: 8px;
+		width:100px;
+		text-align: center;
+		height:21px;
+	}	
+	
+	.DisabledButton
+	{
+		padding-left: 3px !Important;
+		padding-right: 10px !Important;
+		color: #848484 !Important;
+		vertical-align: 8px;
+	}	
+
+	
+	.FilterClear
+	{
+		float: left;
+		margin-top: 8px !Important;
+		margin-left: 15px;
+		color: #00309C !Important;
+		position:relative;
+		cursor: pointer !Important;
+	}	
+
+	.FilterTupleDropdown
+	{
+		background-color: #ffffff !Important;
+		cursor: pointer !Important;
+		font-family: Tahoma !Important;
+		font-size: 8pt !Important;
+		white-space: nowrap;
+		text-decoration: none;	
+		color: Black !Important;
+		margin-top:10px;
+		width:432px;
+	}
+
+	.TopFilterTupleDropdown
+	{
+		background-color: #ffffff !Important;
+		overflow:auto;
+		cursor: pointer !Important;
+		font-family: Tahoma !Important;
+		font-size: 8pt !Important;
+		white-space: nowrap;
+		text-decoration: none;	
+		color: Black !Important;
+		margin-top:10px;
+		width:361px;
+	}
+	
+	.FilterValueOptionsDropdown
+	{
+		background-color: #ffffff !Important;
+		overflow:auto;
+		cursor: pointer !Important;
+		font-family: Tahoma !Important;
+		font-size: 8pt !Important;
+		white-space: nowrap;
+		text-decoration: none;	
+		color: Black !Important;
+		margin-top:10px;
+		margin-right:5px;
+		width:180px;
+	}
+	
+	.FilterTopOptionsDropdown
+	{
+		background-color: #ffffff !Important;
+		cursor: pointer !Important;
+		font-family: Tahoma !Important;
+		font-size: 8pt !Important;
+		white-space: nowrap;
+		text-decoration: none;	
+		color: Black !Important;
+		margin-right:5px;
+		width:100px;
+	}
+	
+	.FilterTopVarDropdown
+	{
+		background-color: #ffffff !Important;
+		overflow:auto;
+		cursor: pointer !Important;
+		font-family: Tahoma !Important;
+		font-size: 8pt !Important;
+		white-space: nowrap;
+		text-decoration: none;
+		color: Black !Important;
+		margin-top:10px;
+		margin-right: 5px;
+		width:110px;
+	}
+
+
+	.FilterImageOnColumn {
+		margin-left:5px;
+		cursor:pointer;
+	}
+
+	.FilterImageOnRow {
+		margin-left:5px;
+		cursor:pointer;
+		float:none;
+	}
+
+	.FilterImageOnColumnDisabled {
+		margin-left:5px;
+		margin-top:-14px;
+		margin-bottom:-10px;
+		float:right;
+	}
+
+
+      	.FilterValueAndOrDropdown
+	{
+		background-color: #ffffff !Important;
+		overflow:auto;
+		cursor: pointer !Important;
+		font-family: Tahoma !Important;
+		font-size: 8pt !Important;
+		white-space: nowrap;
+		text-decoration: none;
+		color: Black !Important;
+		margin-top:10px;
+		margin-right:5px;
+		width:60px;
+	}
+
+	.FilterTargetVarianceCenteredDropdown
+	{
+		background-color: #ffffff !Important;
+		overflow:auto;
+		cursor: pointer !Important;
+		font-family: Tahoma !Important;
+		font-size: 8pt !Important;
+		white-space: nowrap;
+		text-decoration: none;
+		color: Black !Important;
+		margin-top:10px;
+		margin-right: 5px;
+		margin-left: 5px;
+		width:110px;
+                POSITION: absolute;
+                TOP: 48px! important;
+	}
+
+	.FilterByLabelCentered
+	{
+		font-family: Tahoma !Important;
+		font-size: 8pt !Important;
+		vertical-align: left;
+                MARGIN-RIGHT: 5px; 
+                POSITION: absolute; 
+                TOP: 60px! important;
+	}
+
+	/* ----------------- Comments Dialog items window ---------------- */
+
+        .CommentsTitleInput
+        {
+        	font-family: Tahoma !Important;
+        	font-size: 8pt !Important;
+        	margin-right: 5px;
+        	width: 470px;
+        }
+
+        .CommentsCommentDiv
+        {
+        	margin-right: 5px;
+        	margin-top:10px;
+        }
+
+        .CommentsCommentTextArea
+        {
+        	font-family: Tahoma !Important;
+        	font-size: 8pt !Important;
+        	margin-right: 5px;
+        	width: 470px;
+        }
+
+        .CommentsSaveCancelDiv
+        {
+               text-align: right;
+        }
+
+        .CommentsFormDivOpen
+        {
+
+        }
+
+        .CommentsFormDivClosed
+        {
+               display: none;
+        }
+        
+        .CommentsCommentListOpen
+        {
+               MARGIN-RIGHT: 10px; 
+               HEIGHT: 330px! important;
+               BORDER-RIGHT: #c5c5c5 1px solid;
+               BORDER-TOP: #c5c5c5 1px solid;
+               BORDER-LEFT: #c5c5c5 1px solid;
+               BORDER-BOTTOM: #c5c5c5 1px solid;
+               overflow-y: auto;
+               overflow-x: hidden;
+               width: 470px;
+               white-space: normal;
+        }
+
+        .CommentsCommentListClosed
+        {
+               MARGIN-RIGHT: 10px;
+               HEIGHT: 170px! important;
+               BORDER-RIGHT: #c5c5c5 1px solid;
+               BORDER-TOP: #c5c5c5 1px solid;
+               BORDER-LEFT: #c5c5c5 1px solid;
+               BORDER-BOTTOM: #c5c5c5 1px solid;
+               overflow-y: auto;
+               overflow-x: hidden;
+               width: 470px;
+        }
+
+        .CommentsTitleHeaderDiv
+        {
+                font-weight: bold;
+                padding-top: 8px;
+                padding-bottom: 5px;
+                padding-left: 10px;
+                padding-right: 10px;
+                BACKGROUND-IMAGE: url(annheadergrad.gif);
+                BACKGROUND-REPEAT: repeat-x;
+        	WHITE-SPACE: nowrap;
+                OVERFLOW-X: hidden; 
+                TEXT-OVERFLOW: ellipsis;
+                WIDTH: 100%;
+        }
+
+        .CommentsOwnerCreatedByDiv
+        {
+        	FONT-SIZE: 8pt !important;
+        	WIDTH: 100%;
+                height:18px;
+        	WHITE-SPACE: nowrap;
+        	BACKGROUND-COLOR: #f0f0f0 !important;
+        	TEXT-ALIGN: left;
+        	TEXT-DECORATION: none;
+                padding-top: 8px;
+                padding-bottom: 5px;
+        }
+
+        .CommentsOwnerHeader
+        {
+                float: left;
+                margin-left: 10px;
+        }
+
+        .CommentsCreatedByHeader
+        {
+                float: right;
+                margin-right: 10px;
+        }
+
+        .CommentsCommentBody
+        {
+        }
+
+        .CommentsCommentBodyDiv
+        {
+                margin-right: 10px;
+                margin-left: 10px;
+                margin-top: 8px;
+                margin-bottom: 5px;
+                white-space: normal !important;
+        }
+        
+        .dsFormatBold
+        {
+            font-weight: bold;
+        }
+        .dsFormatItalic
+        {
+            font-style: italic;
+        }
+        .dsFormatStrikeThrough
+        {
+            text-decoration: line-through;
+        }
+        .dsFormatUnderline
+        {
+            text-decoration: underline;   
+        }
+        /* Issue 223313 Analytic Grids: Conditional Formatting: Underline and Strikethrough displayed as Underline only */
+        .dsFormatSTandUL
+        {
+            text-decoration: underline line-through;
+        }

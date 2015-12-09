@@ -1,0 +1,1839 @@
+table.bsm-sctbl
+{
+	font-family:Tahoma;
+	font-size: 8pt;
+	border-collapse: collapse;
+	float: left;
+}
+
+table.bsm-sctbl td
+{
+	text-align: inherit;
+	height: auto;
+}
+
+table.bsm-sctbl td img
+{
+	vertical-align: top;
+}
+
+table.bsm-sctbl td span
+{
+	vertical-align: top;
+	display:inline-block;
+}
+
+table.bsm-sctbl th.rhc, th.chc
+{
+	text-align: inherit;
+	color: inherit;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: normal;
+	font-style: inherit;
+	background-color: inherit;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+table.bsm-sctbl th.pulpit
+{
+        text-align: left;
+        vertical-align: bottom;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+th.pulpit img.FilterStatus {
+	margin-left:5px;
+	margin-top:-14px;
+	margin-bottom:-10px;
+	cursor:pointer;
+}
+
+table.bsm-sctbl th.pulpitSelected
+{
+        text-align: left;
+        vertical-align: bottom;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+th.pulpitSelected img.FilterStatus {
+	margin-left:5px;
+	margin-top:-14px;
+	margin-bottom:-10px;
+	cursor:pointer;
+}
+
+table.bsm-sctbl td.FilterEmptyResult
+{
+        text-align: center;
+        vertical-align: bottom;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+table.bsm-sctbl img.ScorecardSortIcon
+{
+        VERTICAL-ALIGN: middle;
+        TEXT-ALIGN: right;
+}
+
+table.bsm-sctbl img.ScorecardFilterIcon
+{
+        VERTICAL-ALIGN: middle;
+        TEXT-ALIGN: right;
+	margin-top:-5px;
+	margin-bottom:-5px;
+}
+
+table.bsm-sctbl th.rhcSelected, th.chcSelected
+{
+	text-align: inherit;
+	color: inherit;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: normal;
+	font-style: inherit;
+	background-color: #fee197;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+table.bsm-sctbl td.bsm-rhchvr
+{
+	text-align: inherit;
+	color: inherit;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font: inherit;
+	height :auto;
+	background-color: inherit;
+	background-image:url("toolbarItemhover.gif");
+	background-repeat:repeat-x;
+	border: solid 1px #d2b47a;
+}
+
+table.bsm-sctbl td.bsm-chvr
+{
+	text-align: inherit;
+	color: inherit;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font: inherit;
+	background-color: inherit;
+	background-image:url("toolbarItemhover.gif");
+	background-repeat:repeat-x;
+	
+
+}
+
+.bsm-ustitle
+{
+	text-align: inherit;
+	color: inherit;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font: inherit;
+	background-color: inherit;
+	border-left:none;
+        background-position : top right;
+        background-repeat :no-repeat;
+}
+
+.bsm-ustitleSelected
+{
+	text-align: inherit;
+	color: inherit;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font: inherit;
+	background-color: #fee197;
+        background-position : top right;
+        background-repeat :no-repeat;
+}
+
+table.bsm-sctbl td.bsm-Cell
+{
+	background-color:transparent;
+}
+
+table.bsm-sctbl td.bsm-Cell img
+{
+	vertical-align: top;
+}
+
+table.bsm-sctbl td.bsm-Cell span
+{
+	vertical-align: top;
+}
+
+table.bsm-sctbl tr.colHeaderRow td.bsm-Cell
+{
+	text-align: inherit;
+}
+
+bsm-RowSpacer
+{
+	width : 5px;
+}
+span.spacer
+{
+	display: inline-block;
+}
+
+a.bsm-Link:hover
+{
+	color:Black;
+	text-decoration: underline;
+}
+
+.bsm-Link
+{
+	color: inherit;
+	background-color: inherit;
+	font-family: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	font: inherit;
+	text-decoration: none;
+}
+
+a.bsm-linkwul:hover
+{
+	color:Black;
+	text-decoration: underline;
+}
+.bsm-linkwul
+{
+	color: inherit;
+	background-color: inherit;
+	font-family: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	font: inherit;
+	text-decoration: inherit;
+}
+
+/*used by popup filter page for showing the dimensions*/
+.bsm-vb
+{
+	font-family: Verdana;
+	font-size: 8pt; /*.68em; */
+	vertical-align: top;
+}
+
+.bsm-vb a
+{
+	color: #003399;
+	text-decoration: none;
+}
+
+.bsm-vb a:hover
+{
+	color: Red; /*#ff3300;*/
+	font-family: Verdana;
+	font-size: 8pt; /*.68em; */
+	text-decoration: underline;
+}
+
+.bsm-vb a:visited:hover
+{
+	color: #ff3300;
+	background-color: #FEF5D1;
+	text-decoration: underline;
+}
+
+.bsm-WPHeader
+{
+	font-family:tahoma;
+	font-size: 8pt;
+	background-image: url("toolgrad.gif");
+	background-repeat: repeat-x;
+	border: 1px solid #95b7f3;
+	background-color: #9ebff6;
+}
+
+.bsm-EmptyCell
+{
+	background-image: url("toolgrad.gif");
+	background-repeat: repeat-x;
+	background-color: #9ebff6;
+}
+
+.bsm-stylebox
+{
+	font-family: tahoma;
+	font-size:8pt;
+	/*background-image: url("listheadergrad.gif");
+	background-repeat: repeat-x;*/
+	border:1px solid #6f9dd9;
+	text-align: left;
+}
+
+.bsm-ToolPaneFrame
+{
+	padding: 0px;
+	background-color: #e1ecfc;
+}
+
+.bsm-descriptiontext
+{
+	color: black;
+	font-family: tahoma;
+	font-size: 8pt;
+	padding: 0px 2px 2px 2px;
+}
+
+.bsm-descriptiontext-paging
+{
+	color: black;
+	font-family: tahoma;
+	font-size: 8pt;
+	padding: 3px 2px 2px 2px;
+	float: left;
+	list-style-type:none;
+}
+
+.bsm-error
+{
+	font-family: Verdana, sans-serif;
+	font-size: 8pt;
+	font-weight: normal;
+	color: #FF0000;
+}
+
+.bsm-WPBody
+{
+	font-size: 8pt;
+	font-family:Tahoma;
+	background-color:#EBF4FF
+}
+
+.bsm-calQuarterHour
+{
+	border-top: 0px none;
+	vertical-align: top;
+	font-size: 10pt;
+	height: 12px;
+}
+
+.bsm-UserBackground
+{
+	background-color: #FFFFFF;
+}
+
+.bsm-UserShadedRegion
+{
+	font-family: tahoma;
+	background-color: #FEF5D1;
+}
+
+/*used by the tool bar control across the product*/
+.bsm-toolbarEx {
+	BORDER-RIGHT: #6f9dd9 1px solid;
+	BORDER-TOP: #6f9dd9 1px solid;
+	BORDER-LEFT: #6f9dd9 1px solid;
+	BORDER-BOTTOM: #6f9dd9 1px solid;
+	MARGIN: 0px;
+	BACKGROUND-IMAGE: url("listheadergrad.gif");
+	BACKGROUND-REPEAT: repeat-x;
+	BACKGROUND-COLOR: #9ebff6;
+        padding: 0px;
+	DISPLAY: inline-block;
+	float:left;
+	width: 100%;
+	height: 100%;
+}
+
+
+.bsm-toolbarCell {
+	font-family: tahoma, Arial, Sans-Serif;
+	font-size: 8pt;
+	font-weight:inherit;
+	PADDING-RIGHT: 2px;
+	PADDING-LEFT: 2px;
+	PADDING-BOTTOM: 3px;
+	PADDING-TOP: 3px;
+	BACKGROUND-IMAGE: url("listheadergrad.gif");
+	BACKGROUND-REPEAT: repeat-x;
+	FLOAT: left;
+        list-style-type:none;
+}
+
+.bsm-itemHidden {
+        display: none;
+}
+
+.bsm-toolbarCell-paging {
+	font-family: tahoma, Arial, Sans-Serif;
+	font-size: 8pt;
+	font-weight:inherit;
+	PADDING-RIGHT: 2px;
+	PADDING-LEFT: 2px;
+	PADDING-BOTTOM: 3px;
+	PADDING-TOP: 3px;
+	BACKGROUND-IMAGE: url("listheadergrad.gif");
+	BACKGROUND-REPEAT: repeat-x;
+	list-style-type:none;
+	float: left;
+	list-style-type:none;
+}
+
+.bsm-toolbarCategoryListItem-left 
+{
+	list-style-type:none; 
+	border-style:none; 
+	height:100%;
+	float:left; 
+}
+
+.bsm-toolbarCategoryListItem-right 
+{
+	list-style-type:none; 
+	border-style:none; 
+	height:100%;
+	float:right; 
+}
+
+.bsm-toolbarCategoryList
+{
+	border-style:none; 
+	padding-left:0; 
+	margin-left:0;
+	padding-top:0;
+}
+
+.bsm-UserToolbarItemSelected
+{
+	font-family: tahoma, Arial, Sans-Serif;
+	font-size: 8pt;
+	font-weight:inherit;
+	border: solid 1px #d2b47a;
+	PADDING-RIGHT: 1px;
+	PADDING-LEFT: 1px;
+	PADDING-BOTTOM: 2px;
+	PADDING-TOP: 2px;
+	background-image:url("toolbarItemhover.gif");
+	background-repeat:repeat-x;
+	float:left;
+        list-style-type:none;
+}
+
+.bsm-toolbarCellSelected
+{
+	font-family: tahoma, Arial, Sans-Serif;
+	font-size: 8pt;
+	border-style:inherit;
+	PADDING-RIGHT: 2px;
+	PADDING-LEFT: 2px;
+	PADDING-BOTTOM: 3px;
+	PADDING-TOP: 3px;
+	background-color: #fee197;
+	float:left;
+    list-style-type:none;
+}
+
+.skipButton
+{
+	PADDING-RIGHT: 0px;
+	PADDING-LEFT: 0px;
+	PADDING-BOTTOM: 0px;
+	PADDING-TOP: 0px;
+	background-color: #ffffff;
+ 	FLOAT: left;
+        list-style-type:none;
+}
+
+.skipButton A
+{
+        overflow:hidden;
+        width:1px;
+        height:1px;
+}
+
+.bsm-UserCellSelected
+{
+	font-family: inherit;
+	font-size: inherit;
+	font-weight:inherit;
+	font: inherit;
+	padding: 0px 0px 0px 0px;
+	background-color: #fee197;
+	border: solid 1px #2254b1;
+	color: #000000;
+}
+
+
+.bsm-UserToolbarWarningMsg
+{
+
+	font-family: tahoma, Arial, Sans-Serif;
+	font-size: 8pt;
+	color: #003399;
+	font-weight:inherit;
+	padding: 1px 4px 2px 2px;
+	color: black;
+	border: solid 1px #EEDD3E;
+	background-color:#FCF9BA;
+	float:left;
+}
+
+.Bsm-ToolbarWngImgTxt
+{
+	margin-left: 4px;
+	color: Black;
+	font-size: 8pt !Important;
+}
+
+
+.bsm-toolbarItems
+{
+	font-family: Verdana, Arial, Sans-Serif;
+	font-size: 8pt;
+	padding: 2px 5px 3px 5px;
+	text-align: center;
+	color: #003399;
+}
+
+.bsm-separator
+{
+	color: #B7BED0;
+	font-size: 10pt;
+	float: left;
+	margin-top: 3px;
+	margin-left: 2px;
+	margin-right: 2px;
+        list-style-type:none;
+}
+.bsm-separator img
+{
+	height:16px;
+	width:1px;
+	background:#9ac6ff;
+	border-bottom:1px solid #f2f8ff;
+	border-right:1px solid #f2f8ff;
+}
+.bsm-UserCaption
+{
+	font-size: 8pt;
+	font-family: verdana;
+	background-color: #dee7f7;
+}
+
+.bsm-UserConfiguration
+{
+	font-size: 8pt;
+	font-family: verdana;
+	background-color: #f2f2f2;
+}
+
+.bsm-formtable .bsm-formbody
+{
+	line-height: 1.3em;
+}
+
+.bsm-Filter 
+{
+	font-size: small;
+	font-family: Verdana;
+	color: Black;
+}
+
+.bsm-UserButton, .bsm-UserInput, .bsm-UserSelect
+{
+	font-family: Verdana, Arial, Sans-Serif;
+	font-size: 8pt;
+}
+
+.bsm-Title
+{
+	font-family: Verdana, Arial, Sans-Serif;
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+/* ----------------------------------------------------------------------------------------------------
+	ASP.NET page
+---------------------------------------------------------------------------------------------------- */
+
+table.bsm-GlobalNav td
+{
+	background-color: #ebf3ff;
+	padding: 2px 5px 2px 5px;
+	vertical-align: middle;
+	font-size: 10pt;
+}
+
+.bsm-PageTitle
+{
+	color:#606060;
+	font-family:Tahoma;
+}
+
+table.bsm-GlobalNav td bsm-links
+{
+	font-family: Verdana;
+}
+
+table.bsm-GlobalNav td a
+{
+	color: #606060;
+	text-decoration: none;
+}
+
+table.bsm-GlobalNav td a:hover
+{
+	color: Blue;
+	text-decoration: underline;
+}
+
+.bsm-pagetitleareaframe
+{
+	background-image: url("pageTitleBKGD.gif");
+	background-repeat: repeat-x;
+	background-position: top left;
+	background-color: #d6e8ff;
+	text-align: center;
+}
+
+.bsm-pagetitleareaframe table
+{
+	background-image: url("topshape.jpg");
+	background-repeat: no-repeat;
+	background-position: 332px 4px;
+	height: 54px;
+	width: 100%;
+}
+
+.bsm-pagetitleareaframe table td
+{
+	text-align: left;
+	padding: 10px 0px 5px 20px;
+}
+
+.bsm-pagetitleareaframe table .bsm-pageHeader
+{
+	font-family: Tahoma;
+	font-size: 16pt;
+	color:Black;
+}
+
+.bsm-pagemargin
+{
+	background: #83b0ec url("pagebackgrad.gif");
+	background-repeat: repeat-x;
+	height: 100%;
+}
+
+.bsm-pagebottommargin
+{
+	background: #83b0ec;
+}
+
+.bsm-popupIcon
+{
+	cursor: pointer;
+	padding-left: 10px;
+	font-size: 8pt;
+	font-family:Tahoma;
+	color:#6F9DD9;
+	white-space:nowrap;
+	text-align:right;
+}
+
+.bsm-rvTitleBar
+{
+	font-family: Arial;
+	font-size: 10pt;
+	padding-left: 5px;
+	padding-bottom: 2px;
+}
+
+.bsm-rvMain
+{
+	padding-left: 5px;
+}
+
+
+table.bsm-sctbl td.bsm-selectedtitle
+{
+	color: inherit;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font: inherit;
+	background-color: inherit;
+	
+	margin:1px;
+	border:1px solid #b09460;
+	padding: 3px 5px 3px 5px;
+	background-color:inherit;
+	background-image:url("toolbarItemhover.gif");
+	background-repeat:repeat-x;
+	cursor:pointer;
+}
+.bsm-selectedtitlealternative
+{
+	background-color:#f8f8f8;
+	border:1px solid #b09460;
+	margin:1px;
+	padding-top:0px;
+	padding-left:1px;
+	padding-right:0px;
+	padding-bottom:1px;
+	cursor:pointer;
+}
+
+
+.bsm-contentarea
+{
+	border: solid 1px #6f9dd9;	
+}
+
+table.bsm-reportviewtableWithBorder
+{
+	border: solid 1px #6f9dd9;
+	border-collapse: collapse;
+}
+table.bsm-reportviewtableWithNoBorder
+{
+	border: solid 0px #6f9dd9;
+	border-collapse: collapse;
+}
+
+.bsm-rvdropdownList
+{
+	border: solid 10px #6f9dd9;
+	border-color:Blue;
+	
+}
+
+.bsm-rvPopupLabel
+{
+	font-size: 8pt;
+	font-family:Tahoma;
+	color:#6F9DD9;
+	text-align:right;
+}
+
+.bsm-rvTitle
+{
+	font-size: 8pt;
+	font-family:Tahoma;
+	color:#6F9DD9;
+}
+
+table.bsm-navitem{
+	background-image:url("Bullet.gif");
+	background-repeat:no-repeat;
+	background-position:left top;
+	padding:1px 6px 0px 17px;
+	font-family:tahoma;
+	font-size:8.25pt;
+	color:#6f9dd9;
+	background-color:#f2f8ff;
+	margin-bottom:6px;
+	width:120px;
+}
+
+.bsm-navheader{
+	font-weight:bold;
+	color:#003399;
+	background-color:#f2f8ff;
+	margin-bottom:6px;
+	font-family:tahoma;
+	font-size:8.25pt;
+	border-collapse:collapse;
+	height:18px;
+	background-image:url("Header.gif");
+	background-repeat:repeat-x;
+	background-color:#d6e8ff;
+	border-top:solid 1px #f2f8ff;
+	border-left:solid 1px #f2f8ff;
+	padding: 1px 0px 3px 6px;
+	width:120px;
+}
+
+.bsm-NavigationTable
+{
+	border:solid 1px #6f9dd9;
+	border-bottom:solid 1px #6f9dd9;
+	font-size:8.25pt;
+	font-family:tahoma;
+	line-height:10pt;
+	background-color:#f2f8ff;
+	width:120px;
+}
+
+.bsm-reportpanel
+{
+	margin-left:50px;
+	margin-right:25px;
+	margin-top:20px;
+}
+
+.bsm-rvRowSpacer
+{
+	height:20px;
+}
+
+.bsm-rvColSpacer
+{
+	width:40px;
+}
+
+.bsm-pagefilterLabel
+{
+	font-size: 8pt;
+	padding:0px,0px,0px,0px;
+	font-family:Tahoma;
+	background-image: url("toolgrad.gif");
+	background-repeat: repeat-x;
+	border-collapse: collapse;
+}
+
+.bsm-pagefilter
+{
+	font-size: 8pt;
+	padding:0px,0px,0px,0px;
+	font-family:Tahoma;
+	font-size: 8pt;
+	background-image: url("toolgrad.gif");
+	background-repeat: repeat-x;
+	border-collapse: collapse;
+	
+}
+table.bsm-pagefiltercontainer
+{
+	font-size: 8pt;
+	background-image: url("toolgrad.gif");
+	background-repeat: repeat-x;
+	border: solid 1px #6f9dd9;
+	border-collapse: collapse;
+}
+
+.bsm-dropownFilter
+{
+	font-family:tahoma;
+	font-size: 8pt;
+	background-image: url("toolgrad.gif");
+	background-repeat: repeat-x;
+	border: solid 1px #6f9dd9;
+	border-collapse: collapse;
+}
+.bsm-browsebtn
+{
+	padding:4px,4px,6px,4px;	
+}
+
+.bsm-AnnotationLinkbtn
+{
+	font-family:Tahoma;
+	font-weight:bold;
+	font-size: 8pt;	
+	
+}
+
+.bsm-Annotationbtn
+{
+	font-family:Tahoma;
+	font-weight:bold;
+	font-size: 8pt;	
+}
+
+.bsm-AnnotationGrayText
+{
+	font-family:Tahoma;
+	font-size: 8pt;
+}
+
+.bsm-AnnotationLabel
+{
+	font-family:Tahoma;
+	font-weight:bold;
+	font-size: 8pt;	
+
+}
+
+.bsm-AnnotationCommentTitle
+{
+	font-family:Tahoma;
+	font-size: 8pt;
+	color:Black;
+	background-color:#FFFFFF;	
+}
+
+.bsm-AnnotationCommentContent
+{
+	font-family:Tahoma;
+	font-size: 8pt;
+	color:Black;
+	background-color:#FFFFFF;	
+}
+
+.bsm-Top10FilterTableEx
+{
+	font-family:Tahoma;
+	font-size: 8pt;
+	background-color: #EBF4FF;	
+}
+
+.bsm-antbbl
+{
+	width:4px;
+	vertical-align: top;
+	display: none;
+}
+
+.bsm-mimgcl
+{
+	cursor:pointer;
+	cursor:hand;
+	width:13px;
+	border:0;
+	
+}
+
+.bsm-plusminus
+{
+	cursor:hand;
+	/*border: solid 1px yellow;*/
+	vertical-align:top;
+        text-align   :inherit;
+}
+.bsm-val
+{
+	padding: 0px 0px 0px 0px;
+	text-align: inherit;
+	color: inherit;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font: inherit;
+	background-color: inherit;
+
+	/*margin-left:3px;
+	margin-right:0px;*/
+}
+.bsm-container
+{
+	/*border: solid 1px yellow;*/
+	height:auto;
+	text-align: inherit;
+	color: inherit;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font: inherit;
+	background-color: inherit;
+}
+
+.bsm-containerplusminus
+{
+        CURSOR: pointer;
+        vertical-align: middle;
+}
+
+.bsm-containerDummycell
+{
+	height:auto;
+	border-right:none;
+	width:9px;
+}
+.bsm-scItemPlusMinusCell
+{
+	border-left:none;
+	border-right:none;
+	width:9px;
+	vertical-align:top;
+	color: inherit;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font: inherit;
+	background-color: inherit;
+	padding:0px 0px 0px 0px;
+}
+
+.bsm-scItemDummyCell
+{
+	border-left:none;
+	border-right:none;
+	width:9px;
+	color: inherit;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font: inherit;
+	background-color: inherit;
+	text-align:inherit;
+	padding:0px 0px 0px 0px;
+}
+
+.bsm-scItemTable 
+{
+	text-align:inherit;
+}
+
+.bsm-scItemRow
+{
+}
+
+.bsm-scItemValueCellNoWrap
+{
+	white-space:nowrap;
+	display:inline;
+	text-align:inherit;
+	color: inherit;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font: inherit;
+	background-color: inherit;
+	padding:0px 0px 0px 0px;
+	vertical-align:top;
+
+}
+
+.bsm-scItemValueCellWrap 
+{
+	display:block;
+	text-align:inherit;
+	color: inherit;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font: inherit;
+	background-color: inherit;
+	padding:0px 0px 0px 0px;
+	vertical-align:top;
+}
+
+
+.bsm-scItemLinkCellWrap 
+{
+	display:block;
+	text-align:inherit;
+	color: inherit;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font: inherit;
+	background-color: inherit;
+	padding:0px 0px 0px 0px;
+	vertical-align:top;
+}
+
+.bsm-scItemLinkCellNoWrap
+{
+	white-space:nowrap;
+	display:inline;
+	text-align:inherit;
+	color: inherit;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font: inherit;
+	background-color: inherit;
+	padding:0px 0px 0px 0px;
+	vertical-align:top;
+
+}
+.bsm-scItemImgCell
+{
+	vertical-align:top;
+	text-align:inherit;
+	padding:0px 0px 0px 0px;
+}
+
+.bsm-scItemAnntCell
+{
+	vertical-align:top;
+	text-align:inherit;
+	padding:0px 0px 0px 0px;
+
+}
+
+.ContainerColumn
+{
+    padding: 2px 3px 1px 3px;
+    font-weight: normal;
+    min-width: 80px;
+}
+
+.ItemColumn
+{
+    margin-left: 5px;
+    float: none;
+}
+
+.ContainerRow
+{
+    padding: 2px 3px 1px 3px;
+    font-weight: normal;
+    display:inline;
+}
+
+.ItemRow
+{
+    margin-left: 5px;
+    float: left;
+}
+
+.ContainerCell
+{
+    padding: 2px 3px 1px 3px;
+    font-weight: normal;
+    display:block;
+}
+
+.ItemCell
+{
+    margin-left: 5px;
+    float: none;
+}
+
+
+
+.CollapseImg {
+	text-align: right;
+	position:absolute;
+	left:495px;
+}
+
+
+#KpiDetails {
+        width:500px;
+        font-family:Tahoma;
+        font-size: 8pt;
+        border-collapse: collapse;
+        border:1px solid Gray;
+        margin:10px 10px 0px 10px;
+        padding:0px;
+}
+
+#KpiDetails h1 {
+	font-family:Tahoma;
+	font-size: 8pt;
+	border-collapse: collapse;
+	font-weight:normal;
+	background-color:ButtonFace;
+	border:1px solid Gray;
+	padding:3px;
+	margin:0px 0px 0px 0px;
+}
+
+#KpiDetails p {
+	padding:0px 0px 3px 3px;
+	margin:0px 0px 0px 0px;
+}
+
+#KpiDetails table {
+	width: 100%;
+	border: 1px solid Gray;
+}
+
+#KpiDetailsCoreBody  {
+	padding:3px 3px 3px 3px;
+}
+
+#KpiDetailsCoreBody table {
+	padding: 2px 5px 2px 5px;
+}
+
+#KpiDetailsDescription {
+}
+
+#KpiDetailsCommentsBody  {
+	padding:3px 3px 3px 3px;
+}
+
+#KpiDetailsDescriptionBody  {
+	padding:3px 3px 3px 3px;
+}
+
+.bsm-KDCommentHeaderTable
+{
+	border:none;
+}
+
+.bsm-KDHeaderBold
+{
+	font-weight:bold;
+}
+
+.bsm-KDItemRegular
+{
+
+}
+
+.bsm-KDItemBold
+{
+	font-weight: bold;
+}
+
+.bsm-KDWarningCell
+{
+	color:Red;
+
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+DIV.BIDR_report-content
+{
+	border-style:solid;
+	border-width:1px 1px 0px 1px;
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+	border-color:#e9e9e9;
+	width: inherit;
+        overflow-x: hidden;
+	display: block;
+	direction:inherit;
+}
+
+H3.BIDR_report-label
+{
+	font-family: Tahoma !Important;
+	font-size: 8.25pt;
+	font-weight: normal;
+	color: #003399;
+	margin: 4px 0px 4px 0px;
+	direction:inherit;
+}
+
+DIV.BIDR_section
+{
+	border-style:none;
+	border-collapse: collapse;
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+	display:inherit;
+	width:inherit;
+	overflow-x: inherit;
+        direction:inherit;
+}
+
+
+DIV.BIDR_section-content
+{
+	border-style:solid;
+	border-width:0px 0px 1px 0px;
+	border-color:#e9e9e9;
+	padding:6px 8px 6px 8px;
+	margin:0px 0px 0px 0px;
+	display:block;
+	width:inherit;
+	overflow-x: inherit;
+	direction:inherit;
+}
+
+DIV.BIDR_section-content-hidden
+{
+	display:none;
+}
+
+DIV.BIDR_section-content-scrollable
+{
+	border-style:solid;
+	border-width:0px 0px 1px 0px;
+	border-color:#e9e9e9;
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+	display:inherit;
+	width:100%;
+	overflow:auto;
+	max-height:200px; !Important
+	direction:inherit;
+}
+
+DIV.BIDR_section-content-scroll-panel
+{
+	border-style:solid;
+	border-width:0px 0px 1px 0px;
+	border-color:#cccccc;
+	padding:4px 8px 6px 8px;
+	margin:0px 0px 0px 0px;
+	display:inherit;
+	width:inherit;
+	direction:inherit;
+}
+
+DIV.BIDR_section-content-scroll-panel-condensed
+{
+	border-style:solid;
+	border-width:0px 0px 1px 0px;
+	background-color: #fcfcfc;
+	border-color:#cccccc;
+	padding:0px 8px 8px 8px;
+	margin:0px 0px 0px 0px;
+	display:inherit;
+	width:inherit;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	direction:inherit;
+}
+
+DIV.BIDR_section-content-scroll-header
+{
+	border-style:solid;
+	border-width:1px 0px 0px 0px;
+	border-color:#ffffff;
+	background-color: #f0f0f0;
+	padding:4px 8px 0px 8px;
+	margin:0px 0px 0px 0px;
+	display:inherit;
+	text-overflow: ellipsis;
+	overflow:hidden;
+	direction:inherit;
+}
+
+DIV.BIDR_section-content-scroll-header-over
+{
+	border-style:solid;
+	border-width:1px 0px 0px 0px;
+	border-color:#ffffff;
+	background-color: #ffcc33;
+	padding:4px 8px 0px 8px;
+	margin:0px 0px 0px 0px;
+	display:inherit;
+	width:inherit;
+	overflow:hidden; 
+	direction:inherit;
+}
+
+DIV.BIDR_section-header
+{
+	border-style:solid;
+	border-width:0px 0px 1px 0px;
+	border-bottom-color:#cccccc;
+	padding:1px 1px 1px 1px;
+	margin:0px 0px 0px 0px;
+	display:inherit;
+	width:inherit;
+	overflow-x: inherit;
+	height:19px;
+	background-color: #dce4fc;
+	direction:inherit;
+}
+
+DIV.BIDR_section-indicator-content
+{
+	border-style:none;
+	border-collapse: collapse;
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+	display:inherit;
+	width:inherit;
+	height:31px;
+	direction:inherit;
+}
+
+DIV.BIDR_section_header_label
+{
+	display:inline !important;
+	height: 18px;
+	width: 90%;
+        padding-top: 1px !important
+        padding-left: 2px !important
+	vertical-align: middle !important;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	direction:inherit;
+}
+
+DIV.BIDR_section_header_toggle
+{
+	display:inline-block !Important;
+	text-align:center;
+	font-size:6.5pt;
+	height: 18px;
+	padding:0px 2px 0px 2px;
+	border-style:solid;
+	border-width:1px 1px 1px 1px;
+	border-color:#dce4fc;
+	width:14px;
+	direction:inherit;
+}
+
+DIV.BIDR_section_header_toggle_over
+{
+	display:inline-block !important;
+	text-align:center;
+	font-size:6.5pt;
+	height:18px;
+	border-style:solid;
+	border-width:1px 1px 1px 1px;
+	border-color:#ff9933;
+	background-color: #ffcc11;
+	padding:0px 2px 0px 2px;
+	width:14px;
+	direction:inherit;
+}
+
+SPAN.BIDR_row-label 
+{
+	font-family: Tahoma !Important;
+	font-size: 7.75pt !Important;
+	font-weight: bold;
+	color: #000000 !Important;
+	direction:inherit;
+}
+
+SPAN.BIDR_row-content 
+{
+	font-family: Tahoma !Important;
+	font-size: 8.25pt !Important;
+	font-weight: normal;
+	margin-left: 8px;
+	color: #000000 !Important;
+	overflow-x: hidden;
+	text-overflow: ellipsis;
+	direction:inherit;
+}
+
+SPAN.BIDR_text-content 
+{
+	font-family: Tahoma !Important;
+	font-size: 8.25pt !Important;
+	font-weight: normal;
+	color: #000000 !Important;
+}
+SPAN.BIDR_text-content-condensed
+{
+	font-family: Tahoma !Important;
+	font-size: 8.25pt !Important;
+	font-weight: normal;
+	color: #999999 !Important;
+	white-space:nowrap;
+	direction:inherit;
+}
+
+
+SPAN.BIDR_section-label 
+{
+	font-family: Tahoma !Important;
+	font-size: 8.25pt !Important;
+	font-weight: normal;
+	color: #000000 !Important;
+	white-space:nowrap;
+	direction:inherit;
+}
+
+SPAN.BIDR_section-toggle 
+{
+	font-family: Tahoma !Important;
+	font-size: 8.25pt !Important;
+	font-weight: normal;
+	color: #000000 !Important;
+	white-space:nowrap;
+	direction:inherit;
+}
+
+UL.BIDR_list
+{
+	list-style: none !Important;
+	list-style-position: inherit;
+	margin: 0px 0px 0px 0px;
+	line-height: 18px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	width:100%;
+	direction:inherit;
+}
+
+LI.BIDR_list-item
+{
+	white-space:nowrap;
+	direction:inherit;
+}
+
+CAPTION.BIDR_caption
+{
+	padding: 0px 0px 4px 0px;
+	text-align:left;
+	font-family: Tahoma !Important;
+	font-size: 7.75pt !Important;
+	font-weight: bold;
+	color: #000000 !Important;
+	direction:inherit;
+
+}
+TABLE.BIDR_header
+{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	border-collapse: collapse;
+	width:100%;
+	direction:inherit;
+}
+TD.BIDR_AL
+{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 8px 0px 8px;
+	border-collapse: collapse;
+	direction:inherit;
+}
+TD.BIDR_AR
+{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	border-collapse: collapse;
+	direction:inherit;
+	width:16px;
+}
+
+TABLE.BIDR_table-thresholds
+{
+	margin: 4px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	border-style:solid;
+	border-width:0px 0px 1px 1px;
+	width: 98%;
+	direction:inherit;
+}
+
+.BIDR_table-status
+{
+	text-align: left;
+	border-style: solid;
+	border-width: 1px 1px 0px 0px;
+	padding: 2px 0px 2px 0px;
+	border-color: #efefef;
+	font-family: Tahoma !Important;
+	text-align:center;
+	direction:inherit;
+}
+
+TH.BIDR_table-status
+{
+	font-size: 6.5pt !Important;
+	background-color: #dce4fc;
+	direction:inherit;
+}
+
+/* Using Arial for the right arrow unicode character compatibility with IE6 */
+TD.BIDR_table-status
+{
+	font-family: Arial  !Important;
+	font-size: 6.5pt !Important;
+	color: #000099;
+	background-color: #e8f0ff;
+	direction:inherit;
+}
+
+.BIDR_table-thresholds
+{
+	text-align: left;
+	border-style: solid;
+	border-width: 1px 1px 0px 0px;
+	padding: 2px 4px 2px 4px;
+	border-color: #efefef;
+	font-family: Tahoma !Important;
+	text-align:left;
+	direction:inherit;
+}
+
+TH.BIDR_table-thresholds
+{
+
+	font-size: 7.75pt !Important;
+	background-color: #dce4fc;
+	font-weight: bold;
+	direction:inherit;
+}
+
+TD.BIDR_table-thresholds
+{
+	font-size: 8.25pt !Important;
+	direction:inherit;
+}
+
+.BIDR_table-indicator
+{
+	border-style: solid;
+	border-width: 1px 1px 0px 0px;
+	padding: 0px 4px 0px 4px;
+	border-color: #efefef;
+	font-family: Tahoma !Important;
+	font-size: 8.25pt !Important;
+	font-weight: normal;
+	text-align: center;
+	direction:inherit;
+}
+
+TH.BIDR_table-indicator
+{
+	background-color: #dce4fc;
+	width: 18px;
+	overflow:hidden;
+	direction:inherit;
+}
+
+TD.BIDR_table-indicator
+{
+	width: 18px;
+	direction:inherit;
+}
+
+A
+{
+	font-size: inherit;
+	text-decoration: none;
+	color: #000099;
+	direction:inherit;
+	
+}
+
+A:HOVER
+{
+	font-size: inherit;
+	text-decoration: none;
+	color: #000099;
+	cursor:hand;
+	direction:inherit;
+}
+
+A:VISITED
+{
+	font-size: inherit;
+	text-decoration: none;
+	color: #000099;
+	direction:inherit;
+}
+
+
+
+/*       REVIWED CSS BEGIN          */
+
+
+/*  ------  Scorecard Tool bar CSS classes  ------- */
+.sc-tb {
+	BORDER: #6f9dd9 1px solid;
+	MARGIN: 0px;
+	BACKGROUND-IMAGE: url("listheadergrad.gif");
+	BACKGROUND-REPEAT: repeat-x;
+	BACKGROUND-COLOR: #9ebff6;
+        padding: 0px;
+	DISPLAY: inline-block;
+	float:left;
+	width: 100%;
+	height: 100%;
+}
+
+.sc-tbc {
+	font-family: tahoma, Arial, Sans-Serif;
+	font-size: 8pt;
+	font-weight:inherit;
+	PADDING-RIGHT: 2px;
+	PADDING-LEFT: 2px;
+	PADDING-BOTTOM: 3px;
+	PADDING-TOP: 3px;
+	float:left;
+        list-style-type:none;
+}
+
+.sc-tbch {
+        display: none;
+}
+
+.sc-tbcs
+{
+	background-image:url("toolbarItemhover.gif");
+}
+
+.sc-tbsep
+{
+	color: #B7BED0;
+	font-size: 10pt;
+	margin-top: 3px;
+	margin-left: 2px;
+	margin-right: 2px;
+        list-style-type:none;
+	float:left;
+}
+
+.sc-tbsep img
+{
+	height:16px;
+	width:1px;
+	background:#9ac6ff;
+	border-bottom:1px solid #f2f8ff;
+	border-right:1px solid #f2f8ff;
+}
+
+.sc-tbskip
+{
+	PADDING-RIGHT: 0px;
+	PADDING-LEFT: 0px;
+	PADDING-BOTTOM: 0px;
+	PADDING-TOP: 0px;
+	background-color: #ffffff;
+ 	FLOAT: left;
+        list-style-type:none;
+}
+
+.sc-tbskip A
+{
+        overflow:hidden;
+        width:1px;
+        height:1px;
+        DISPLAY: inline-block;
+}
+
+/*
+   Scorecard table
+*/
+table.sctb
+{
+	border-collapse: collapse;
+        BORDER-COLOR: #d0d8e5;
+	float: left;
+}
+
+/*
+   Common styles for scorecard cells
+*/
+table.sctb th.scc, table.sctb td.scc
+{
+        FONT-SIZE: 8pt;
+        FONT-FAMILY: Tahoma;
+        FONT-WEIGHT: normal;
+        BORDER-COLOR: #d0d8e5;
+        background-position : top right;
+        background-repeat :no-repeat;
+        COLOR: #000000;
+        WHITE-SPACE: nowrap;
+        HEIGHT: auto;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+/* Row Header Cell Override styles */
+.scrh
+{
+        VERTICAL-ALIGN: middle;
+        text-align: left;
+        BACKGROUND-COLOR: #fcfcfc;
+}
+
+/* Column Header Cell Override styles */
+.scch
+{
+        VERTICAL-ALIGN: middle;
+        TEXT-ALIGN: center;
+        BACKGROUND-COLOR: #ebf3ff;
+}
+
+/* Data Cell Override styles */
+.scd
+{
+        VERTICAL-ALIGN: middle;
+        text-align: left;
+	border-left:none;
+        background-color: #ffffff;
+}
+
+/* Pulpit Cell Override styles */
+.scp
+{
+        text-align: left;
+        BACKGROUND-COLOR: #ebf3ff;
+        vertical-align: bottom;
+}
+
+
+/* 
+   Selection override styles, used for all cells
+   Only the background-color is ensured to override current style
+ */
+.scs
+{
+	background-color: #fee197;
+}
+
+/* Scorecard data cell containter */
+div.scdcc {
+	DISPLAY: block;
+	CURSOR: hand;
+}
+
+/* Scorecard data cell item */
+span.scdci {
+	FLOAT: none;
+	MARGIN-LEFT: 5px
+}
+
+/* Scorecard Indicator */
+img.sci {
+	HEIGHT: auto
+	VERTICAL-ALIGN: top
+}
+
+/* Scorecard Plus/Minus image */
+img.scpm {
+	VERTICAL-ALIGN: middle;
+	CURSOR: pointer
+}
+
+/* Sort icon on the header cells */
+th.scch img.si
+{
+        VERTICAL-ALIGN: middle;
+        TEXT-ALIGN: right;
+}
+
+/* Filter icon on the header cells */
+th.scch img.fi
+{
+        VERTICAL-ALIGN: middle;
+        TEXT-ALIGN: right;
+}
+
+/* Format for the cell shown when a filter returns an empty result */
+table.sctb td.fer
+{
+        text-align: center;
+        vertical-align: bottom;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+
+/*       REVIWED CSS END          */

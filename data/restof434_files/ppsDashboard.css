@@ -1,0 +1,560 @@
+﻿#ppsDashboardRootElement
+{
+	overflow: auto;
+}
+
+#ppsDashboardRootElement tr.pps-layout>td>table
+{
+	width: auto;
+}
+
+/* WSS alerations */
+.ms-WPHeader { border-bottom-color: #ccc; }
+.ms-WPHeader td { border-bottom-color: #ccc; }
+.ms-PartSpacingHorizontal { width: 10px;  }
+.ms-PartSpacingVertical { margin-top: 0px; height: 8px }
+
+tr.pps-layout
+{
+	vertical-align: top;
+}
+
+tr.pps-parameter
+{
+	vertical-align: text-top;
+}
+
+div.pps-dashboard-margin
+{
+    margin: 5px;
+}
+
+.pps-parameterTitle
+{
+	font-family: tahoma, sans-serif;
+	font-size: 8.25pt;
+	padding: 0px 5px 0px 0px;
+	white-space: nowrap;
+}
+
+.pps-parameterError
+{
+	font-family: tahoma, sans-serif;
+	font-size: 8.25pt;
+	padding: 0px 5px 0px 0px;
+	white-space: nowrap;
+	color: #003399;
+}
+
+.pps-picker
+{
+	position: relative;
+	font-family: tahoma, sans-serif;
+	font-size: 8pt;
+	vertical-align: middle;
+	background-color: white;
+	padding: 0px;
+	border: solid 1px #ccc;
+	margin: 0px;
+	margin-bottom: -1px;
+}
+
+.pps-pickerSelectedItem
+{
+	font-family: tahoma, sans-serif;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	float: left;
+	padding-right: 1px !important;
+}
+.pps-pickerSelectedCaption { text-decoration: none; }
+.pps-pickerSelectedCaption:hover { text-decoration: underline }
+
+.pps-pickerActive
+{
+	padding: 0px;
+	border: solid 1px #b09460;
+}
+
+.pps-pickerActiveButton
+{
+	top: 4px! important;
+	left: 1px! important;
+}
+
+.pps-pickerItem
+{
+	padding-right: 10px;
+}
+
+.pps-pickerSelectButtonLarge
+{
+	width: 15px;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	position: absolute;
+	border-top: none !important;
+	border-bottom: none !important;
+	border-right: none !important;
+}
+
+.pps-pickerList
+{
+	float: left;
+	list-style-type: none;
+	margin: 0px;
+	background-color: White;
+	border: solid 1px #b09460;
+	font-family: tahoma, sans-serif;
+	font-size: 8pt;
+	padding-left: 0px! important;
+}
+
+.pps-pickerListItem
+{
+	padding: 1px 5px 1px 15px;
+	border: none !important;
+}
+
+.pps-pickerListItem a
+{
+	padding: 0px 0px 0px 0px;
+	text-decoration: none !important;
+	color: #000000 !important;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: block;
+}
+
+.pps-pickerListItem a:hover
+{
+	text-decoration: none !important;
+	color: #000000 !important;
+}
+
+.pps-pickerListItemActive
+{
+	cursor: pointer;
+	background-color: #ffe6a0;
+}
+
+.pps-navigation
+{
+	width: 200px;
+	font-size:8.25pt;
+	font-family:tahoma;
+	margin-top: 10px;
+	margin-left: 10px;
+	padding-top: 0px;
+	color:#003399;
+}
+
+.pps-navigation-populated
+{
+	background-color:#f2f8ff;
+	border: solid 1px #83b0ec;
+	border-top: none;
+}
+
+.pps-navlist
+{
+	height: 100%;
+	margin-left: 0px;
+	background-color:#d6e8ff;
+}
+
+.pps-navlistheader
+{
+	border-top: solid 1px #83b0ec;
+	border-bottom: solid 1px #83b0ec;
+}
+
+.pps-navlistheader span
+{
+	border-top: solid 1px #ffffff;
+	border-left: solid 1px #ffffff;
+	border-bottom: solid 1px #83b0ec;
+	width: 100%;
+	height: 100%;
+	font-weight: bold;
+	padding-left: 5px;
+	padding-right: 20px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.pps-navlistitems
+{
+	padding-left: 0px;
+	margin-left: 0px;
+	list-style-position: inside;
+	background-color:#f2f8ff;
+}
+
+.pps-navlistitem
+{
+	padding-top: 4px;
+	padding-bottom: 3px;
+	list-style-type: none;
+	list-style-image: url(/Preview/res/Bullet.gif);
+}
+
+.pps-navlistitem a
+{
+	padding-right: 20px;
+	color:#003399;
+	text-decoration:none;
+}
+
+.pps-navlistitem a:hover
+{
+	color: #000000;
+	text-decoration:underline;
+}
+
+.pps-breadcrumb
+{
+	color: #003399;
+	font-size: 8.25pt;
+	font-family: tahoma;
+	background-color: #ebf3ff;
+	padding: 4px;
+}
+
+.pps-breadcrumb ul
+{
+	display: inline;
+	border: none;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+.pps-breadcrumb ul li
+{
+	margin-left: 0px;
+	padding-left: 2px;
+	border: none;
+	list-style: none;
+	display: inline;
+}
+
+.pps-breadcrumb span
+{
+	color:#666666;
+}
+
+.pps-breadcrumb ul li a
+{
+	text-decoration:none;
+}
+
+.pps-breadcrumb ul li a:hover
+{
+	color: #000000;
+	text-decoration: underline;
+}
+
+.pps-breadcrumb ul li a:hover span
+{
+	color: #000000;
+}
+
+.pps-bodyareaframe
+{
+	vertical-align: top;
+	border-left: #6f9dd9 1px solid;
+	border-right: #6f9dd9 1px solid;
+	border-top: #6f9dd9 1px solid;
+	border-bottom: #6f9dd9 1px solid;
+	width: 100%;
+	height: 100%;
+	background-color: #ffffff
+}
+
+.pps-loading
+{
+	/* The minimum size of the pps-loading div is set in the PPSCommon.Constants JavaScript class. */
+	display: inline-block;
+	position: relative;
+	background-color: White;
+	filter: alpha(opacity=85);
+	opacity: 0.85;
+	-moz-opacity: 0.85;
+	background-image: url(../images/hig_progcircle_loading24.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.pps-washout
+{
+	display: none;
+	position: relative;
+	background-color: White;
+	overflow: hidden;
+	white-space: nowrap;
+	filter: alpha(opacity=85);
+	opacity: 0.85;
+	-moz-opacity: 0.85;
+}
+
+.pps-requestAbortDiv,
+.pps-loadingDivNoSpinner,
+.pps-loadingDiv,
+.pps-noCancelLoadingDiv,
+.pps-noCancelLoadingText,
+.pps-loadingDivPreIE8
+{
+	font-family: Tahoma !Important;
+	font-size: 11px !Important;
+}
+
+.pps-requestAbortDiv,
+.pps-loadingDivNoSpinner,
+.pps-loadingDiv,
+.pps-loadingDivPreIE8
+{
+	background-color: White;
+	border: solid 1px #D0D0D0;
+}
+
+.pps-requestAbortDiv
+{
+	background-image: url(/_layouts/images/ErrSm.gif);
+	background-repeat: no-repeat;
+	background-position: 5px center;
+	filter: alpha(opacity=100);
+	opacity: 1;
+	-moz-opacity: 1;
+}
+
+.pps-loadingDiv
+{
+	display: inline;
+	position: relative;
+	padding: 18px 18px 18px 48px;
+	top:3em;
+	left:1em;
+	background-image: url(../images/hig_progcircle_loading24.gif);
+	background-repeat: no-repeat;
+	background-position: 8px 50%;
+	filter: alpha(opacity=100);
+	opacity: 1;
+	-moz-opacity: 1;
+}
+
+.pps-loadingDivPreIE8
+{
+	display: inline;
+	position: relative;
+	padding: 18px 18px 18px 48px;
+	top:3em;
+	left:1em;
+	background-image: url(../images/hig_progcircle_loading24.gif);
+	background-repeat: no-repeat;
+	background-position: 8px top;
+	filter: alpha(opacity=100);
+	opacity: 1;
+	-moz-opacity: 1;
+}
+
+.pps-loadingDivNoSpinner
+{
+	display: inline;
+	position: relative;
+	padding: 18px;
+	top:3em;
+	left:1em;
+}
+
+.pps-loadingDivText
+{
+	position: relative;
+	color: #000000;
+}
+
+.pps-noCancelLoadingText
+{
+	padding-left: 18px;
+	position: relative;
+	color: #000000;
+}
+
+
+.pps-loadingDivAction
+{
+	position: relative;
+	color: #003399 !Important;
+	text-decoration: underline !Important;
+}
+
+.pps-noCancelLoadingDiv
+{
+	display: inline;
+	position: relative;
+	background-color: White;
+	filter: alpha(opacity=100);
+	opacity: 1;
+	-moz-opacity: 1;
+}
+
+.pps-loading-reload
+{
+	position: absolute;
+}
+
+/* -----------------------------  Class Styles for Error Pages -------------------------------*/
+
+.pps-reportErrorDiv 
+{
+	height: 100%;
+	padding: 0px 0px 0px 0px;
+	text-align: center !Important;
+}
+
+.pps-reportErrorTable 
+{
+	position: relative;
+	top: 50%;
+	width: 250px;
+	text-align: left !Important;
+	font-family: Tahoma !Important;
+	font-size: 11px !Important;
+	color: #ff0000;
+}
+
+.pps-reportErrorTable a
+{
+	color: #0000ff !Important;
+	font-size: 11px !Important;
+	text-decoration: underline !Important;
+}
+	
+/* -----------------------------  Class Styles for PageOverview ------------------------------*/
+.ppsma-pageOverviewList
+{
+	margin-left: 5px;
+	padding-top: 5px !important;
+	margin-bottom: 0px;
+	list-style-type: none;
+	font-family: Tahoma;
+	font-size: 8.25pt;
+	width: auto;
+}
+
+.ppsma-pageOverviewList a
+{
+	text-decoration: none;
+}
+
+.ppsma-pageOverviewList li
+{
+	display: inline;
+	margin-right: 3px;
+}
+
+.ppsma-pageOverviewTabActive
+{
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.ppsma-pageOverviewTabActive a:hover
+{
+	font-weight: bold;
+	text-decoration: none;
+	cursor: default;
+}
+
+.ppsma-pageOverviewTitle
+{
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	margin-right: 5px !important;
+	float: left;
+	font-family: Tahoma;
+	font-size: 8.25pt;
+}
+
+/* -----------------------------  Class Styles for site Default.aspx ------------------------------*/
+.ppsma-fpct
+{
+	min-width: 220px;
+}
+.ppsma-fpcss
+{
+	width: 12px;
+}
+.ppsma-fpcsm
+{
+	width: 24px;
+}
+.ppsma-fpcsl
+{
+	width: 36px;
+}
+.ppsma-fphtd
+{
+	margin-bottom: 20px !important;
+	padding-bottom: 0px !important;
+}
+.ppsma-fph1
+{
+	font-family: Calibri !important;
+	font-size: 13pt !important;
+	color: #C27801;
+}
+.ppsma-fph2
+{
+	margin-top: 2px;
+	margin-bottom: 2px;
+	font-family: Calibri !important;
+	font-size: 11pt !important;
+	color: #3F3F3F;
+}
+.ppsma-fpbb
+{
+	font-family: Calibri !important;
+	font-size: 9pt !important;
+	color: #3F3F3F;
+}
+.ppsma-fpbbt
+{
+	font-family: Segoe UI !important;
+	font-size: 10pt !important;
+	white-space: nowrap;
+	color: #3F3F3F;
+}
+.ppsma-fpt
+{
+
+    font-family: Calibri !important;
+
+    font-size: 10pt !important;
+    color: #3F3F3F;
+}
+.ppsma-fpi
+{
+    margin-right: 12px;
+}
+
+tr.pps-layout *
+{
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;  
+}
+
+div.ms-WPBody td, div.ms-WPBody th, div.ms-WPBody span
+{
+    -ms-user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -o-user-select: text;  
+}
+
+
